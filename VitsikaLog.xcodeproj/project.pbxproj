@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B417E2CD25CB18A40044290B /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417E2CC25CB18A40044290B /* Signup.swift */; };
+		B417E2D025CB1A1F0044290B /* MonCompte.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417E2CF25CB1A1F0044290B /* MonCompte.swift */; };
+		B417E2D325CB1A390044290B /* ProfilSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417E2D225CB1A390044290B /* ProfilSettings.swift */; };
+		B41FEB1425CBE30B0070543A /* ModelVitsika.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FEB1325CBE30B0070543A /* ModelVitsika.swift */; };
+		B41FEB1725CBF0920070543A /* ExtractVitsika.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FEB1625CBF0920070543A /* ExtractVitsika.swift */; };
+		B429E90025CA980700612809 /* VitsikaLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429E8FF25CA980700612809 /* VitsikaLogApp.swift */; };
+		B429E90225CA980700612809 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429E90125CA980700612809 /* LogView.swift */; };
+		B429E90425CA980900612809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B429E90325CA980900612809 /* Assets.xcassets */; };
+		B429E90725CA980900612809 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B429E90625CA980900612809 /* Preview Assets.xcassets */; };
+		B43846FF25D2851000F29985 /* DefiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43846FE25D2851000F29985 /* DefiView.swift */; };
+		B438470325D2855C00F29985 /* InterfRecompenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438470225D2855C00F29985 /* InterfRecompenseView.swift */; };
+		B438470625D2859300F29985 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438470525D2859300F29985 /* ImagePickerView.swift */; };
+		B438470A25D285AD00F29985 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438470925D285AD00F29985 /* CameraView.swift */; };
+		B438470D25D285CF00F29985 /* ClasseCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438470C25D285CF00F29985 /* ClasseCordinator.swift */; };
+		B438471C25D28F1600F29985 /* BacDeTriBravo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438471325D28F1600F29985 /* BacDeTriBravo.swift */; };
+		B438471D25D28F1600F29985 /* BacDeTriJeReessaye.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438471425D28F1600F29985 /* BacDeTriJeReessaye.swift */; };
+		B438471E25D28F1600F29985 /* MonDechet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438471525D28F1600F29985 /* MonDechet.swift */; };
+		B438471F25D28F1600F29985 /* ExtractionDechet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438471625D28F1600F29985 /* ExtractionDechet.swift */; };
+		B438472025D28F1600F29985 /* ExtractionIconBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438471725D28F1600F29985 /* ExtractionIconBack.swift */; };
+		B438472225D28F1600F29985 /* BacDeTri.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438471925D28F1600F29985 /* BacDeTri.swift */; };
+		B438472825D293BA00F29985 /* Recompense.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438472725D293BA00F29985 /* Recompense.swift */; };
+		B438472B25D2947300F29985 /* TabViewVitsika.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438472A25D2947300F29985 /* TabViewVitsika.swift */; };
+		B438473825D2C79700F29985 /* Filtre.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438473225D2C79700F29985 /* Filtre.swift */; };
+		B438473B25D2C79700F29985 /* Map Liste.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438473525D2C79700F29985 /* Map Liste.swift */; };
+		B438473C25D2C79700F29985 /* BoutonDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438473625D2C79700F29985 /* BoutonDescription.swift */; };
+		B438473D25D2C79700F29985 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438473725D2C79700F29985 /* MapView.swift */; };
+		B438474025D2C7B500F29985 /* Challengejour.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438473F25D2C7B500F29985 /* Challengejour.swift */; };
+		B47ED83A25CD30D5002DA861 /* VoyageVerre.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47ED83925CD30D5002DA861 /* VoyageVerre.swift */; };
+		B492C79825CDE54900576100 /* VoyagePlastique.swift in Sources */ = {isa = PBXBuildFile; fileRef = B492C79725CDE54900576100 /* VoyagePlastique.swift */; };
+		B492C79B25CDEE7800576100 /* VoyageCanette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B492C79A25CDEE7800576100 /* VoyageCanette.swift */; };
+		B492C79E25CDF4D000576100 /* VoyageCarton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B492C79D25CDF4D000576100 /* VoyageCarton.swift */; };
+		B492C7A425CDF76B00576100 /* VoyagePapier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B492C7A325CDF76B00576100 /* VoyagePapier.swift */; };
+		B492C7A725CDF8A000576100 /* VoyagePile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B492C7A625CDF8A000576100 /* VoyagePile.swift */; };
+		B492C7AA25CDFA3200576100 /* VoyageElectrique.swift in Sources */ = {isa = PBXBuildFile; fileRef = B492C7A925CDFA3200576100 /* VoyageElectrique.swift */; };
+		B492C7AE25CDFBC000576100 /* VoyageCigarette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B492C7AD25CDFBC000576100 /* VoyageCigarette.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B417E2CC25CB18A40044290B /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		B417E2CF25CB1A1F0044290B /* MonCompte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonCompte.swift; sourceTree = "<group>"; };
+		B417E2D225CB1A390044290B /* ProfilSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilSettings.swift; sourceTree = "<group>"; };
+		B41FEB1325CBE30B0070543A /* ModelVitsika.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelVitsika.swift; sourceTree = "<group>"; };
+		B41FEB1625CBF0920070543A /* ExtractVitsika.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractVitsika.swift; sourceTree = "<group>"; };
+		B429E8FC25CA980700612809 /* VitsikaLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitsikaLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B429E8FF25CA980700612809 /* VitsikaLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitsikaLogApp.swift; sourceTree = "<group>"; };
+		B429E90125CA980700612809 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		B429E90325CA980900612809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B429E90625CA980900612809 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B429E90825CA980900612809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43846FE25D2851000F29985 /* DefiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefiView.swift; sourceTree = "<group>"; };
+		B438470225D2855C00F29985 /* InterfRecompenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfRecompenseView.swift; sourceTree = "<group>"; };
+		B438470525D2859300F29985 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		B438470925D285AD00F29985 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		B438470C25D285CF00F29985 /* ClasseCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasseCordinator.swift; sourceTree = "<group>"; };
+		B438471325D28F1600F29985 /* BacDeTriBravo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BacDeTriBravo.swift; sourceTree = "<group>"; };
+		B438471425D28F1600F29985 /* BacDeTriJeReessaye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BacDeTriJeReessaye.swift; sourceTree = "<group>"; };
+		B438471525D28F1600F29985 /* MonDechet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonDechet.swift; sourceTree = "<group>"; };
+		B438471625D28F1600F29985 /* ExtractionDechet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtractionDechet.swift; sourceTree = "<group>"; };
+		B438471725D28F1600F29985 /* ExtractionIconBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtractionIconBack.swift; sourceTree = "<group>"; };
+		B438471925D28F1600F29985 /* BacDeTri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BacDeTri.swift; sourceTree = "<group>"; };
+		B438472725D293BA00F29985 /* Recompense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recompense.swift; sourceTree = "<group>"; };
+		B438472A25D2947300F29985 /* TabViewVitsika.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewVitsika.swift; sourceTree = "<group>"; };
+		B438473225D2C79700F29985 /* Filtre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filtre.swift; sourceTree = "<group>"; };
+		B438473525D2C79700F29985 /* Map Liste.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Map Liste.swift"; sourceTree = "<group>"; };
+		B438473625D2C79700F29985 /* BoutonDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoutonDescription.swift; sourceTree = "<group>"; };
+		B438473725D2C79700F29985 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B438473F25D2C7B500F29985 /* Challengejour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challengejour.swift; sourceTree = "<group>"; };
+		B47ED83925CD30D5002DA861 /* VoyageVerre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyageVerre.swift; sourceTree = "<group>"; };
+		B492C79725CDE54900576100 /* VoyagePlastique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyagePlastique.swift; sourceTree = "<group>"; };
+		B492C79A25CDEE7800576100 /* VoyageCanette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyageCanette.swift; sourceTree = "<group>"; };
+		B492C79D25CDF4D000576100 /* VoyageCarton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyageCarton.swift; sourceTree = "<group>"; };
+		B492C7A325CDF76B00576100 /* VoyagePapier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyagePapier.swift; sourceTree = "<group>"; };
+		B492C7A625CDF8A000576100 /* VoyagePile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyagePile.swift; sourceTree = "<group>"; };
+		B492C7A925CDFA3200576100 /* VoyageElectrique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyageElectrique.swift; sourceTree = "<group>"; };
+		B492C7AD25CDFBC000576100 /* VoyageCigarette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyageCigarette.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B429E8F925CA980700612809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B420B0E025D3C97000D5CC1D /* Voyage */ = {
+			isa = PBXGroup;
+			children = (
+				B47ED83925CD30D5002DA861 /* VoyageVerre.swift */,
+				B492C7AD25CDFBC000576100 /* VoyageCigarette.swift */,
+				B492C79725CDE54900576100 /* VoyagePlastique.swift */,
+				B492C79A25CDEE7800576100 /* VoyageCanette.swift */,
+				B492C79D25CDF4D000576100 /* VoyageCarton.swift */,
+				B492C7A325CDF76B00576100 /* VoyagePapier.swift */,
+				B492C7A625CDF8A000576100 /* VoyagePile.swift */,
+				B492C7A925CDFA3200576100 /* VoyageElectrique.swift */,
+			);
+			path = Voyage;
+			sourceTree = "<group>";
+		};
+		B420B0E225D3C9F600D5CC1D /* Profil */ = {
+			isa = PBXGroup;
+			children = (
+				B417E2CF25CB1A1F0044290B /* MonCompte.swift */,
+				B417E2D225CB1A390044290B /* ProfilSettings.swift */,
+			);
+			path = Profil;
+			sourceTree = "<group>";
+		};
+		B420B0E425D3CA9E00D5CC1D /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				B438470925D285AD00F29985 /* CameraView.swift */,
+				B438470C25D285CF00F29985 /* ClasseCordinator.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		B429E8F325CA980700612809 = {
+			isa = PBXGroup;
+			children = (
+				B429E8FE25CA980700612809 /* VitsikaLog */,
+				B429E8FD25CA980700612809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B429E8FD25CA980700612809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B429E8FC25CA980700612809 /* VitsikaLog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B429E8FE25CA980700612809 /* VitsikaLog */ = {
+			isa = PBXGroup;
+			children = (
+				B429E8FF25CA980700612809 /* VitsikaLogApp.swift */,
+				B41FEB1325CBE30B0070543A /* ModelVitsika.swift */,
+				B41FEB1625CBF0920070543A /* ExtractVitsika.swift */,
+				B438472A25D2947300F29985 /* TabViewVitsika.swift */,
+				B429E90125CA980700612809 /* LogView.swift */,
+				B417E2CC25CB18A40044290B /* Signup.swift */,
+				B43846FE25D2851000F29985 /* DefiView.swift */,
+				B420B0E225D3C9F600D5CC1D /* Profil */,
+				B438471125D28DFA00F29985 /* Tri */,
+				B438473025D2BDAA00F29985 /* Challenge */,
+				B438470225D2855C00F29985 /* InterfRecompenseView.swift */,
+				B420B0E025D3C97000D5CC1D /* Voyage */,
+				B438472E25D2BBEF00F29985 /* Map */,
+				B438470525D2859300F29985 /* ImagePickerView.swift */,
+				B420B0E425D3CA9E00D5CC1D /* Camera */,
+				B429E90325CA980900612809 /* Assets.xcassets */,
+				B429E90825CA980900612809 /* Info.plist */,
+				B429E90525CA980900612809 /* Preview Content */,
+			);
+			path = VitsikaLog;
+			sourceTree = "<group>";
+		};
+		B429E90525CA980900612809 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B429E90625CA980900612809 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B438471125D28DFA00F29985 /* Tri */ = {
+			isa = PBXGroup;
+			children = (
+				B438471925D28F1600F29985 /* BacDeTri.swift */,
+				B438471325D28F1600F29985 /* BacDeTriBravo.swift */,
+				B438471425D28F1600F29985 /* BacDeTriJeReessaye.swift */,
+				B438471625D28F1600F29985 /* ExtractionDechet.swift */,
+				B438471725D28F1600F29985 /* ExtractionIconBack.swift */,
+				B438471525D28F1600F29985 /* MonDechet.swift */,
+				B438472725D293BA00F29985 /* Recompense.swift */,
+			);
+			path = Tri;
+			sourceTree = "<group>";
+		};
+		B438472E25D2BBEF00F29985 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B438473625D2C79700F29985 /* BoutonDescription.swift */,
+				B438473225D2C79700F29985 /* Filtre.swift */,
+				B438473525D2C79700F29985 /* Map Liste.swift */,
+				B438473725D2C79700F29985 /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		B438473025D2BDAA00F29985 /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				B438473F25D2C7B500F29985 /* Challengejour.swift */,
+			);
+			path = Challenge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B429E8FB25CA980700612809 /* VitsikaLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B429E90B25CA980900612809 /* Build configuration list for PBXNativeTarget "VitsikaLog" */;
+			buildPhases = (
+				B429E8F825CA980700612809 /* Sources */,
+				B429E8F925CA980700612809 /* Frameworks */,
+				B429E8FA25CA980700612809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VitsikaLog;
+			productName = VitsikaLog;
+			productReference = B429E8FC25CA980700612809 /* VitsikaLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B429E8F425CA980700612809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					B429E8FB25CA980700612809 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = B429E8F725CA980700612809 /* Build configuration list for PBXProject "VitsikaLog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B429E8F325CA980700612809;
+			productRefGroup = B429E8FD25CA980700612809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B429E8FB25CA980700612809 /* VitsikaLog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B429E8FA25CA980700612809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B429E90725CA980900612809 /* Preview Assets.xcassets in Resources */,
+				B429E90425CA980900612809 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B429E8F825CA980700612809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B438472B25D2947300F29985 /* TabViewVitsika.swift in Sources */,
+				B43846FF25D2851000F29985 /* DefiView.swift in Sources */,
+				B438470D25D285CF00F29985 /* ClasseCordinator.swift in Sources */,
+				B438473C25D2C79700F29985 /* BoutonDescription.swift in Sources */,
+				B417E2D025CB1A1F0044290B /* MonCompte.swift in Sources */,
+				B492C79B25CDEE7800576100 /* VoyageCanette.swift in Sources */,
+				B438470625D2859300F29985 /* ImagePickerView.swift in Sources */,
+				B438472025D28F1600F29985 /* ExtractionIconBack.swift in Sources */,
+				B41FEB1725CBF0920070543A /* ExtractVitsika.swift in Sources */,
+				B438471E25D28F1600F29985 /* MonDechet.swift in Sources */,
+				B492C7AA25CDFA3200576100 /* VoyageElectrique.swift in Sources */,
+				B429E90225CA980700612809 /* LogView.swift in Sources */,
+				B492C7A425CDF76B00576100 /* VoyagePapier.swift in Sources */,
+				B438471F25D28F1600F29985 /* ExtractionDechet.swift in Sources */,
+				B492C7AE25CDFBC000576100 /* VoyageCigarette.swift in Sources */,
+				B47ED83A25CD30D5002DA861 /* VoyageVerre.swift in Sources */,
+				B492C79825CDE54900576100 /* VoyagePlastique.swift in Sources */,
+				B438470325D2855C00F29985 /* InterfRecompenseView.swift in Sources */,
+				B438471D25D28F1600F29985 /* BacDeTriJeReessaye.swift in Sources */,
+				B429E90025CA980700612809 /* VitsikaLogApp.swift in Sources */,
+				B438470A25D285AD00F29985 /* CameraView.swift in Sources */,
+				B417E2D325CB1A390044290B /* ProfilSettings.swift in Sources */,
+				B417E2CD25CB18A40044290B /* Signup.swift in Sources */,
+				B438472225D28F1600F29985 /* BacDeTri.swift in Sources */,
+				B41FEB1425CBE30B0070543A /* ModelVitsika.swift in Sources */,
+				B438473D25D2C79700F29985 /* MapView.swift in Sources */,
+				B438473825D2C79700F29985 /* Filtre.swift in Sources */,
+				B438473B25D2C79700F29985 /* Map Liste.swift in Sources */,
+				B492C79E25CDF4D000576100 /* VoyageCarton.swift in Sources */,
+				B438471C25D28F1600F29985 /* BacDeTriBravo.swift in Sources */,
+				B438474025D2C7B500F29985 /* Challengejour.swift in Sources */,
+				B492C7A725CDF8A000576100 /* VoyagePile.swift in Sources */,
+				B438472825D293BA00F29985 /* Recompense.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B429E90925CA980900612809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B429E90A25CA980900612809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B429E90C25CA980900612809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VitsikaLog/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VitsikaLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.I.VitsikaLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B429E90D25CA980900612809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VitsikaLog/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VitsikaLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.I.VitsikaLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B429E8F725CA980700612809 /* Build configuration list for PBXProject "VitsikaLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B429E90925CA980900612809 /* Debug */,
+				B429E90A25CA980900612809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B429E90B25CA980900612809 /* Build configuration list for PBXNativeTarget "VitsikaLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B429E90C25CA980900612809 /* Debug */,
+				B429E90D25CA980900612809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B429E8F425CA980700612809 /* Project object */;
+}
